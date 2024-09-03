@@ -42,6 +42,56 @@ console.log(booleanIsloggedIn); //op is true
 let someNumber = 33;
 let stringNumber = String(someNumber);
 console.log(stringNumber);
-console.log(typeof stringNumber);//string 
+console.log(typeof stringNumber); //string
 
+// ******OPERATIONS********
 
+let value = 3;
+let negvalue = -value;
+console.log(negvalue); //-3 output
+
+//power operation
+//2 raised to 2 is 4
+// ** is used for power
+console.log(2 ** 2);
+
+// / is divide qoutient
+// % remainder
+
+let str1 = "hello";
+let str2 = "ananya";
+let str3 = str1 + str2;
+console.log(str3);
+
+//different behavior of js
+//jodne pr output
+
+console.log("1" + 2); //12
+console.log(1 + "2"); //12
+console.log("1" + 2 + 2); //122
+console.log(1 + 2 + "2"); //32(1+2=3,and 2 string alg )
+//toh 32
+
+//ye sab practical nhi hota
+//exam pov se padhlo
+//but write neatly and use ()
+
+console.log(+true); //op is 1 only
+console.log(+""); //0 (empty hai string)
+
+let num1, num2, num3;
+
+num1 = num2 = num3 = 2 + 2;
+
+let gameCounter = 100;
+//pre increment hogyi na
+++gameCounter; //update and then use
+console.log(gameCounter); //101
+
+//pre fix
+//++ update and then use
+//post fix
+//game++ use then update
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
