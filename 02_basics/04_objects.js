@@ -112,6 +112,8 @@ console.log(instructor);
 
 
 //API'S
+//APIs (Application Programming Interfaces)
+//APIs are essential in modern JavaScript applications, enabling communication between web services and applications.
 //saare kaam kisi aur ko dedo
 //menu card
 //chef krega kaam apna
