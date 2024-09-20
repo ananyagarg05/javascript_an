@@ -34,17 +34,28 @@
 // const all_new_heros = [...marvel_heros, ...dc_heros];
 //console.log(all_new_heros);
 
+//rare case situation array ke andr array
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]];
 
+//flat
+//Returns a new array with all
+// sub-array elements concatenated into it recursively up
+// to the specified depth.
+//infinity se depth jitni bhi ho
+//jaise yaha max 2 ek andr array ke andar
 const real_another_array = another_array.flat(Infinity);
 console.log(real_another_array);
 
 console.log(Array.isArray("Hitesh"));
+//Creates an array from an iterable object.
 console.log(Array.from("Hitesh"));
+//[] output
+//key se value se bnao array
 console.log(Array.from({ name: "hitesh" })); // interesting
 
 let score1 = 100;
 let score2 = 200;
 let score3 = 300;
-
+//printing like an array from set of ele's
+//[ 100, 200, 300 ] output
 console.log(Array.of(score1, score2, score3));
