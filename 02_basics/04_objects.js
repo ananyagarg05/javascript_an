@@ -102,7 +102,9 @@ console.log(course.courseInstructor);
 
 //better syntax
 //ananya
+
 //: instructor chota aur naam krdia
+
 const { courseInstructor: instructor } = course;
 ////ananya
 //console.log(courseInstructor);
@@ -140,7 +142,7 @@ console.log(instructor);
 // ]
 
 //api which is famous
-//random user me api
+//random user me -> api
 
 //samajhne ke liye tools hai boht hai
 //json formatter krke
