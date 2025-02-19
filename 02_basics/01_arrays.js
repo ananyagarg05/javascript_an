@@ -51,11 +51,12 @@ myArr.pop();
 // slice, splice ->differences
 
 //slice():
-// The slice() method in JavaScript extracts a section of an array 
+// The slice() method in JavaScript extracts a section of an array
 // and returns a new array containing the selected elements,
 //  without modifying the original array.
 console.log("A ", myArr);
 //Returns a copy of a section of an array.
+//extra knowledge
 //For both start and end, a negative index can be used to indicate an offset from the end of the array.
 //y For example, -2 refers to the second to last element of the array
 const myn1 = myArr.slice(1, 3);
@@ -70,9 +71,9 @@ console.log(myn1); //[ 1, 2 ]
 console.log("B ", myArr);
 
 //splice
-splice():
+splice();
 // The splice() method in JavaScript is used to change
-//  the contents of an array by removing or replacing existing elements and/or 
+//  the contents of an array by removing or replacing existing elements and/or
 //  adding new elements in place, modifying the original array.
 //Removes elements from an array and, if necessary,
 // inserts new elements in their place, returning the deleted elements.

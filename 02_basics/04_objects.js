@@ -109,10 +109,9 @@ const { courseInstructor: instructor } = course;
 //ananya
 console.log(instructor);
 
-
-
 //API'S
 //APIs (Application Programming Interfaces)
+// Application programming interface
 //APIs are essential in modern JavaScript applications, enabling communication between web services and applications.
 //saare kaam kisi aur ko dedo
 //menu card
@@ -127,11 +126,11 @@ console.log(instructor);
 //keys and values bhi hongi as strings
 //isliye " name "  values " hitesh"
 //ye objects ke way m hai
-{
+/*{
     "name": "hitesh",
     "coursename": "js in hindi",
     "price": "free"
-}
+}*/
 
 //2. apis through arrays ke andar objects
 // [
@@ -141,11 +140,10 @@ console.log(instructor);
 // ]
 
 //api which is famous
-//random user me api 
+//random user me api
 
 //samajhne ke liye tools hai boht hai
-//json formatter krke 
+//json formatter krke
 //paste krdo waha pr formatter pr
 //format krke ache se bta deta hai
 //more clear in the frontend
-
