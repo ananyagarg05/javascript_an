@@ -3,6 +3,7 @@
 
 //var kaise bhi chalega
 //chahe andr ya bahar
+//var will give an output even if the variable is not in the scope.
 //tabhi kehte hai var matt use karo
 
 //var c = 300
@@ -55,6 +56,7 @@ function addone(num) {
   return num + 1;
 }
 
+//agar iske upar likh dete toh hoisting kehte hai
 const addTwo = function (num) {
   return num + 2;
 };
